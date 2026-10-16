@@ -22,8 +22,6 @@ def definir_cor(nivel):
         return Fore.CYAN
     elif nivel == 5:
         return Fore.BLUE
-    else:
-        return Fore.WHITE
 
 for nivel in range(1, 6):
     cor = definir_cor(nivel)
